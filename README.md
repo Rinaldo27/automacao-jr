@@ -9,7 +9,7 @@ cd automacao-jr
 * Estalar dependências:
  npm install
 
-* Abrir o Cypress com interface gráfica 
+* Abrir o Cypress com interface gráfica:
 npx cypress open
 
 * Executar os testes em modo headless:

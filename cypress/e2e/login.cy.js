@@ -20,7 +20,7 @@ describe('Login', () => {
         //act
         cy.get('[data-test="username"]').type('user.invalid')
         cy.get('[data-test=password]').type('senha')
-        cy.get('[data-test=login-button]').click('')
+        cy.get('[data-test=login-button]').click()
         
         //Assert
         cy.get('[data-test="error"]')

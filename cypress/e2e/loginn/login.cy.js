@@ -1,5 +1,5 @@
-import login from '../pages/login'
-import inventory from '../pages/inventory'
+import login from '../../pages/login'
+import inventory from '../../pages/inventory'
 
 
 describe('Login', () => {

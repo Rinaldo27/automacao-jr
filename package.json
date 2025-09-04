@@ -5,7 +5,7 @@
   "scripts": {
     "cy:open": "cypress open",
     "cy:run": "cypress run",
-    "test": "npm run cy:run"
+    "test": "npx cypress run --env split=true"
 
     
   },
